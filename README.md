@@ -5,6 +5,8 @@
   - [Where to submit proposals](#where-to-submit-proposals)
   - [Proposal outline](#proposal-outline)
 - [Ideas for discussion](#ideas-for-discussion)
+  - [Beginner tutorials](#beginner-tutorials)
+  - [Flatpak rating system](#flatpak-rating-system)
 
 # About us
 
@@ -76,3 +78,23 @@ PROJECT TITLE GOES HERE
 ```
 
 # Ideas for discussion
+
+## Beginner tutorials
+
+Flatpak is a relatively new technology and there are not many tutorials out there. We would like to have some more tutorials for beginners at https://docs.flatpak.org that explain how to use Flatpak and how to package applications for Flathub.
+
+Possible mentor:
+
+Difficulty: Easy
+
+## Flathub rating system
+
+Flathub is a community-driven app store. We would like to have a rating system for apps on Flathub. This would allow users to rate apps, from KDE Discover, GNOME Software or others and show the ratings on Flathub. This would also allow us to sort apps by rating on Flathub.
+
+This might be done in a different stack or as a part of the Flathub website. Details depend on the proposal.
+
+There is previous art, by the name of ODRS, but it probably needs to be redone from scratch.
+
+Possible mentor: @razzeee
+
+Difficulty: Hard
