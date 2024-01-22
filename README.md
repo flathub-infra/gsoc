@@ -93,7 +93,8 @@ Flathub is a community-driven app store. We would like to have a rating system f
 
 This might be done in a different stack or as a part of the Flathub website. Details depend on the proposal.
 
-There is previous art, by the name of ODRS, but it probably needs to be redone from scratch.
+There is previous art, by the name of [ODRS](https://odrs.gnome.org/), but it probably needs to be redone from scratch.
+If we could keep the database (but move it to postgres) and also keep the api (probably import the openAPI spec file) that would be huge.
 
 Possible mentor: @razzeee
 
