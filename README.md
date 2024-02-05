@@ -10,9 +10,9 @@
 
 # About us
 
-We're Flathub an organization focusing on delivering Flatpak packages to the masses. We're not working on the Flatpak itself, but on things that are related to tooling for the ecosystem and other improvements for users of the Flatpak ecosystem.
+We're Flathub, an organization focusing on delivering Flatpak packages to the masses. We're not working on the Flatpak itself, but on things that are related to tooling for the ecosystem and other improvements for users of the Flatpak ecosystem.
 
-Flathub owns multiple parts of code, that might be relevant for a GSoC project:
+Flathub owns multiple parts of code that might be relevant for a GSoC project:
 
 - [Flathub Website](https://github.com/flathub/website/)
 - [Flathub Documentation](https://github.com/flathub/documentation)
@@ -25,7 +25,7 @@ We also might consider projects that are not directly related to Flathub, but to
 
 If we're selected as a mentoring organization for 2024, students will need to read the overview of a good project proposal, follow the outline for proposals when applying, and review the list of project ideas detailed below. Students are welcome to propose new ideas, not mentioned on the list and are encouraged to be as creative as they like.
 
-If you want to work on any of these, please reach out. We don't care about your gender, skin color, religion etc. pp.
+If you want to work on any of these, please reach out. We don't care about your gender, skin color, religion, etc. pp.
 All are welcome <3
 
 # Prerequisites
@@ -39,10 +39,10 @@ Some coding skills, basic familiarity with Git, solid understanding and interest
 
 Qualifications for a good Summer of Code proposal:
 
-    Discrete, well-defined, modular
-    Comprised of a series of measurable sub-goals
-    Based on open specs that are available free of charge
-    Based on complete specs
+- Discrete, well-defined, modular
+- Comprised of a series of measurable sub-goals
+- Based on open specs that are available free of charge
+- Based on complete specs
 
 An example of a good proposal is the implementation of a new feature or function that is not available yet.
 
@@ -50,10 +50,10 @@ An example of a less desirable proposal is one that's not as measurable, such as
 
 To re-iterate:
 
-    Localized/isolated code projects = good
-    Global code refactoring = bad
-    A project should have a set of subgoals, so even if the end goal turns out to be too big some of the parts will be of benefit.
-    Not too big! This is an important problem when choosing a project, while it is fun to think about solving a grand project, it's not always realistic. It's better to finish a smaller project than to start a grand one.
+- Localized/isolated code projects = good
+- Global code refactoring = bad
+- A project should have a set of subgoals, so even if the end goal turns out to be too big some of the parts will be of benefit.
+- Not too big! This is an important problem when choosing a project, while it is fun to think about solving a grand project, it's not always realistic. It's better to finish a smaller project than to start a grand one.
 
 ## Where to submit proposals
 
