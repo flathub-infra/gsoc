@@ -5,11 +5,11 @@
   - [Where to submit proposals](#where-to-submit-proposals)
   - [Proposal outline](#proposal-outline)
 - [Ideas for discussion](#ideas-for-discussion)
-  - [Beginner tutorials](#beginner-tutorials)
-  - [Flatpak rating system](#flatpak-rating-system)
-  - [Next.js app router](#nextjs-app-router)
-  - [Explore backend CMS](#explore-backend-cms)
   - [Replace Flatpak External Data Checker with Renovate](#replace-flatpak-external-data-checker-with-renovate)
+  - [Next.js app router](#nextjs-app-router)
+  - [Flatpak rating system](#flatpak-rating-system)
+  - [Explore backend CMS](#explore-backend-cms)
+  - [Beginner tutorials](#beginner-tutorials)
 
 # About us
 
@@ -82,60 +82,6 @@ PROJECT TITLE GOES HERE
 
 # Ideas for discussion
 
-## Beginner tutorials
-
-Flatpak is a relatively new technology and there are not many tutorials out there. We would like to have some more tutorials for beginners at https://docs.flatpak.org that explain how to use Flatpak and how to package applications for Flathub. It would make most sense to start with tuturials for popular languages or frameworks.
-
-Possible mentor: @razzeee
-
-Difficulty: Easy
-
-## Flathub rating system
-
-Flathub is a community-driven app store. We would like to have a rating system for apps on Flathub. This would allow users to rate apps, from KDE Discover, GNOME Software or others and show the ratings on Flathub. This would also allow us to sort apps by rating on Flathub.
-
-This might be done in a different stack or as a part of the Flathub website. Details depend on the proposal.
-
-There is previous art, by the name of [ODRS](https://odrs.gnome.org/), but it probably needs to be redone from scratch.
-If we could keep the database (but move it to postgres) and also keep the api (probably import the openAPI spec file) that would be huge.
-
-Possible mentor: @razzeee
-
-Difficulty: Hard
-
-## Next.js app router
-
-As the current next.js app was created with the old [pages router](https://nextjs.org/docs/pages), we want to change to the new [app router](https://nextjs.org/docs/app).
-
-[First we should do all that we can incrementally adopt](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration)https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration
-
-Then we need to move everything over, without loosing any features.
-
-Possible mentor: @razzeee
-
-Difficulty: Hard
-
-## Explore backend CMS
-
-It might be nice to use a CMS to be easily able to handle pages and other data. We could explore https://payloadcms.com/ or https://strapi.io/ and see if we can get it nicely integrated.
-
-1. Move static pages into the CMS and figure out how to handle translations of those pages
-2. Try importing app data and statistics and render those pages with data from the CMS too
-
-Possible mentor: @razzeee
-
-## Next.js app router
-
-As the current next.js app was created with the old [pages router](https://nextjs.org/docs/pages), we want to change to the new [app router](https://nextjs.org/docs/app).
-
-[First we should do all that we can incrementally adopt](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration)https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration
-
-Then we need to move everything over, without loosing any features.
-
-Possible mentor: @razzeee
-
-Difficulty: Hard
-
 ## Replace Flatpak External Data Checker with Renovate
 
 [Flatpak External Data Checker](https://github.com/flathub-infra/flatpak-external-data-checker) is a tool maintained and operated by the Flathub team to help keep apps on Flathub up-to-date. Using annotations in the build manifest for each app, it monitors for new releases of each app and its bundled dependencies, and opens pull requests as needed to update them.
@@ -151,3 +97,55 @@ This would likely mean implementing at least two data sources, a [manager](https
 Possible mentors: @razzeee, @wjt
 
 Difficulty: Hard
+
+Project size: Big
+
+## Next.js app router
+
+As the current next.js app was created with the old [pages router](https://nextjs.org/docs/pages), we want to change to the new [app router](https://nextjs.org/docs/app).
+
+[First we should do all that we can incrementally adopt](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration)
+
+Then we need to move everything over, without loosing any features.
+
+Possible mentor: @razzeee
+
+Difficulty: Hard
+
+Project size: Medium
+
+## Flathub rating system
+
+Flathub is a community-driven app store. We would like to have a rating system for apps on Flathub. This would allow users to rate apps, from KDE Discover, GNOME Software or others and show the ratings on Flathub. This would also allow us to sort apps by rating on Flathub.
+
+This might be done in a different stack or as a part of the Flathub website. Details depend on the proposal.
+
+There is previous art, by the name of [ODRS](https://odrs.gnome.org/), but it probably needs to be redone from scratch.
+If we could keep the database (but move it to postgres) and also keep the api (probably import the openAPI spec file) that would be huge.
+
+Possible mentor: @razzeee
+
+Difficulty: Hard
+
+Project size: Big
+
+## Explore backend CMS
+
+It might be nice to use a CMS to be easily able to handle pages and other data. We could explore https://payloadcms.com/ or https://strapi.io/ and see if we can get it nicely integrated.
+
+1. Move static pages into the CMS and figure out how to handle translations of those pages
+2. Try importing app data and statistics and render those pages with data from the CMS too
+
+Possible mentor: @razzeee
+
+Project size: Medium/Big
+
+## Beginner tutorials
+
+Flatpak is a relatively new technology and there are not many tutorials out there. We would like to have some more tutorials for beginners at https://docs.flatpak.org that explain how to use Flatpak and how to package applications for Flathub. It would make most sense to start with tuturials for popular languages or frameworks.
+
+Possible mentor: @razzeee
+
+Difficulty: Easy
+
+Project size: Medium
