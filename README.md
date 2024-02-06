@@ -7,7 +7,7 @@
 - [Ideas for discussion](#ideas-for-discussion)
   - [Replace Flatpak External Data Checker with Renovate](#replace-flatpak-external-data-checker-with-renovate)
   - [Next.js app router](#nextjs-app-router)
-  - [Flatpak rating system](#flatpak-rating-system)
+  - [Flathub rating system](#flathub-rating-system)
   - [Explore backend CMS](#explore-backend-cms)
   - [Beginner tutorials](#beginner-tutorials)
 
