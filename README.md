@@ -7,6 +7,8 @@
 - [Ideas for discussion](#ideas-for-discussion)
   - [Beginner tutorials](#beginner-tutorials)
   - [Flatpak rating system](#flatpak-rating-system)
+  - [Next.js app router](#nextjs-app-router)
+  - [Explore backend CMS](#explore-backend-cms)
 
 # About us
 
@@ -14,11 +16,11 @@ We're Flathub, an organization focusing on delivering Flatpak packages to the ma
 
 Flathub owns multiple parts of code that might be relevant for a GSoC project:
 
-- [Flathub Website](https://github.com/flathub/website/)
-- [Flathub Documentation](https://github.com/flathub/documentation)
-- [Flatpak external data checker](https://github.com/flathub/flatpak-external-data-checker)
-- [Flatpak builder lint](https://github.com/flathub/flatpak-builder-lint)
-- [IDE Flatpak Wrapper](https://github.com/flathub/ide-flatpak-wrapper)
+- [Flathub Website](https://github.com/flathub-infra/website/)
+- [Flathub Documentation](https://github.com/flathub-infra/documentation)
+- [Flatpak external data checker](https://github.com/flathub-infra/flatpak-external-data-checker)
+- [Flatpak builder lint](https://github.com/flathub-infra/flatpak-builder-lint)
+- [IDE Flatpak Wrapper](https://github.com/flathub-infra/ide-flatpak-wrapper)
 - [Electron Sample App](https://github.com/flathub/electron-sample-app)
 
 We also might consider projects that are not directly related to Flathub, but to the Flatpak ecosystem in general. Have a look at the repositories of the [Flatpak organization](https://github.com/flatpak) for inspiration.
