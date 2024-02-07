@@ -131,7 +131,7 @@ Project size: Big
 
 ## Explore backend CMS
 
-It might be nice to use a CMS to be easily able to handle pages and other data. We could explore https://payloadcms.com/ or https://strapi.io/ and see if we can get it nicely integrated.
+It might be nice to use a CMS to be easily able to handle pages and other data. We could explore [PayloadCMS](https://payloadcms.com/), [Strapi](https://strapi.io/), [KeystoneJS](https://keystonejs.com/) or similar and see if we can get it nicely integrated.
 
 1. Move static pages into the CMS and figure out how to handle translations of those pages
 2. Try importing app data and statistics and render those pages with data from the CMS too
