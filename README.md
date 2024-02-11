@@ -94,11 +94,15 @@ This project would likely involve working out the best way to add Flatpak manife
 
 This would likely mean implementing at least two data sources, a [manager](https://github.com/renovatebot/renovate/blob/main/docs/development/adding-a-package-manager.md?rgh-link-date=2024-02-05T23%3A06%3A47Z) and maybe a binary, that writes hashes to flatpak manifests, to lock them.
 
+Expected outcomes: Being able to configure a renovate instance to run against a git repo with a flatpak manifest. It should then update according to security updates.
+
+Skills required: Typescript, Renovate, Git, Flatpak
+
 Possible mentors: @razzeee, @wjt
 
 Difficulty: Hard
 
-Project size: Big
+Project size: 350 hours
 
 ## Next.js app router
 
@@ -108,11 +112,15 @@ As the current next.js app was created with the old [pages router](https://nextj
 
 Then we need to move everything over, without loosing any features.
 
+Expected outcomes: The app has been ported from pages to app router.
+
+Skills required: Next.js, Typescript, Git
+
 Possible mentor: @razzeee
 
 Difficulty: Hard
 
-Project size: Medium
+Project size: 175 hours
 
 ## Flathub rating system
 
@@ -123,11 +131,15 @@ This might be done in a different stack or as a part of the Flathub website. Det
 There is previous art, by the name of [ODRS](https://odrs.gnome.org/), but it probably needs to be redone from scratch.
 If we could keep the database (but move it to postgres) and also keep the api (probably import the openAPI spec file) that would be huge.
 
+Expected outcomes: ODRS has been replaced by a new system
+
+Skills required: Typescript, Git, Python (reading the old code), Postgres
+
 Possible mentor: @razzeee
 
 Difficulty: Hard
 
-Project size: Big
+Project size: 350 hours
 
 ## Explore backend CMS
 
@@ -136,16 +148,26 @@ It might be nice to use a CMS to be easily able to handle pages and other data. 
 1. Move static pages into the CMS and figure out how to handle translations of those pages
 2. Try importing app data and statistics and render those pages with data from the CMS too
 
+Expected outcomes: The current website can be managed via a CMS
+
+Skills required: Typescript, Git
+
 Possible mentor: @razzeee
 
-Project size: Medium/Big
+Difficulty: Medium
+
+Project size: 350 hours
 
 ## Beginner tutorials
 
-Flatpak is a relatively new technology and there are not many tutorials out there. We would like to have some more tutorials for beginners at https://docs.flatpak.org that explain how to use Flatpak and how to package applications for Flathub. It would make most sense to start with tuturials for popular languages or frameworks.
+Flatpak is a relatively new technology and there are not many tutorials out there. We would like to have some more tutorials for beginners at https://docs.flatpak.org/en/latest/guides.html that explain how to use Flatpak and how to package applications for Flathub. It would make most sense to start with tutorials for popular languages (python, typescript etc.) or frameworks.
+
+Expected outcomes: More tutorials on different languages or frameworks
+
+Skills required: Flatpak, Markdown
 
 Possible mentor: @razzeee
 
 Difficulty: Easy
 
-Project size: Medium
+Project size: 90 hours
